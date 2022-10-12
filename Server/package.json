@@ -1,0 +1,25 @@
+{
+  "name": "socket-server",
+  "version": "1.0.0",
+  "description": "Application test for socket server",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "node test"
+  },
+  "keywords": [
+    "nodejs",
+    "socket-io"
+  ],
+  "author": "Muchammad ilham",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.13",
+    "path": "^0.12.7",
+    "socket.io": "^4.2.0"
+  }
+}
